@@ -16,7 +16,7 @@ public class Main {
         int userNumber = scanner.nextInt();
         System.out.println("Your number is "+userNumber);
         Random random = new Random();
-        int number = random.nextInt(1) + 1;
+        int number = random.nextInt(100) + 1;
         System.out.print("The number i was thinking of was: ");
         System.out.println(number);
 
