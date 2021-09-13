@@ -12,6 +12,8 @@ public class Main {
         System.out.println("I'm thinking of a number beetween 1 and 100, can you guess it?");
         System.out.println("Choose your number beewtween 1 and 100");
 
+        for (int i = 0; i < 10; i++) {
+
         Scanner scanner = new Scanner (System.in);
         int userNumber = scanner.nextInt();
         System.out.println("Your number is "+userNumber);
@@ -25,6 +27,6 @@ public class Main {
 
         if (difference < 0) {difference = difference * -1;}
         if (difference == 0) {System.out.println("You were right!");}
-        else {System.out.println("You were off by: "+difference);}
+        else {System.out.println("You were off by: "+difference);}}
     }
 }
